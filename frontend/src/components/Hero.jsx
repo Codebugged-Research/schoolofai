@@ -10,7 +10,17 @@ export const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-start overflow-hidden bg-black">
+    <section className="relative min-h-screen flex items-center justify-start overflow-hidden">
+      {/* Background Image with Dark Overlay */}
+      <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 bg-black/70 z-10" />
+        <img
+          src="https://images.unsplash.com/photo-1655035080489-521cde5dfc3b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzB8MHwxfHNlYXJjaHwxfHxibGFjayUyMHdhdnklMjBsaW5lc3xlbnwwfHx8YmxhY2t8MTc3ODc2Njg1OXww&ixlib=rb-4.1.0&q=85"
+          alt="Abstract Waves Background"
+          className="w-full h-full object-cover opacity-80 blur-sm"
+        />
+      </div>
+
       {/* Content */}
       <div className="container mx-auto px-6 md:px-12 py-32 relative z-20">
         <div className="max-w-3xl">
