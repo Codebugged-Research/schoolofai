@@ -28,33 +28,35 @@ export const Hero = () => {
           {/* Left Column - Main Content */}
           <div className="max-w-3xl">
             {/* Main Headline */}
-            <h1 className="bebas text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-[0.9] tracking-wide uppercase">
+            <h1 className="bebas text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 md:mb-8 leading-[0.95] md:leading-[0.9] tracking-wide uppercase">
               Practical AI Learning
               <br />
               <span className="text-[#c5ff00]">for Everyone</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl leading-relaxed font-light">
+            <p className="text-base md:text-xl text-gray-300 mb-8 md:mb-12 max-w-2xl leading-relaxed font-light">
               AI programs for school students, college students, professionals, founders, and teams.
             </p>
 
             {/* CTA Button */}
-            <div className="flex items-center gap-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
               <Button
                 onClick={scrollToPrograms}
                 size="lg"
-                className="bg-[#c5ff00] hover:bg-[#a8e000] text-black border-0 transition-all duration-300 font-semibold text-base px-8 py-6 h-auto"
+                className="w-full sm:w-auto bg-[#c5ff00] hover:bg-[#a8e000] text-black border-0 transition-all duration-300 font-semibold text-base px-8 py-5 h-auto"
               >
                 Begin with Free Mastermind
               </Button>
-              <div className="hidden md:flex flex-col text-sm">
-                <span className="text-gray-400">Start Date</span>
-                <span className="text-white font-semibold">16 May 2026</span>
-              </div>
-              <div className="hidden md:flex flex-col text-sm">
-                <span className="text-gray-400">Start Time</span>
-                <span className="text-white font-semibold">10 AM IST</span>
+              <div className="flex sm:flex-row flex-col gap-4 sm:gap-6">
+                <div className="flex flex-col text-sm">
+                  <span className="text-gray-400">Start Date</span>
+                  <span className="text-white font-semibold">16 May 2026</span>
+                </div>
+                <div className="flex flex-col text-sm">
+                  <span className="text-gray-400">Start Time</span>
+                  <span className="text-white font-semibold">10 AM IST</span>
+                </div>
               </div>
             </div>
           </div>

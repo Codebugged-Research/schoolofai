@@ -26,14 +26,14 @@ export const About = () => {
   ];
 
   return (
-    <section id="about" className="py-32 px-6 bg-black relative overflow-hidden">
+    <section id="about" className="py-16 md:py-32 px-6 bg-black relative overflow-hidden">
       <div className="container mx-auto max-w-7xl relative z-10">
         {/* Section Header */}
-        <div className="mb-20">
+        <div className="mb-12 md:mb-20">
           <div className="text-xs tracking-widest text-gray-400 mb-4 uppercase">
             WHY CHOOSE US
           </div>
-          <h2 className="bebas text-5xl md:text-7xl font-bold mb-6 leading-tight uppercase">
+          <h2 className="bebas text-4xl md:text-7xl font-bold mb-6 leading-tight uppercase">
             Why Choose <span className="text-[#c5ff00]">KIDLIN</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl leading-relaxed font-light">
@@ -70,7 +70,7 @@ export const About = () => {
         </div>
 
         {/* Productivity Focus Section */}
-        <div className="max-w-4xl mx-auto p-12 bg-[#1a1a1a] border border-gray-800">
+        <div className="max-w-4xl mx-auto p-8 md:p-12 bg-[#1a1a1a] border border-gray-800">
           <h3 className="bebas text-4xl md:text-5xl font-bold mb-6 text-[#c5ff00] uppercase">
             Productivity-Focused Learning
           </h3>

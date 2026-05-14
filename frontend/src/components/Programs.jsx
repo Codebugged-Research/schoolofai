@@ -39,14 +39,14 @@ export const Programs = () => {
   ];
 
   return (
-    <section id="programs" className="py-32 px-6 bg-black relative">
+    <section id="programs" className="py-16 md:py-32 px-6 bg-black relative">
       <div className="container mx-auto max-w-7xl">
         {/* Section Header */}
-        <div className="mb-20">
+        <div className="mb-12 md:mb-20">
           <div className="text-xs tracking-widest text-gray-400 mb-4 uppercase">
             THE PROGRAMS
           </div>
-          <h2 className="bebas text-5xl md:text-7xl font-bold mb-6 leading-tight uppercase">
+          <h2 className="bebas text-4xl md:text-7xl font-bold mb-6 leading-tight uppercase">
             One Weekend. Lifetime of AI Skills.
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl leading-relaxed font-light">

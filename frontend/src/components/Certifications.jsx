@@ -19,28 +19,28 @@ export const Certifications = () => {
     {
       id: 3,
       name: 'Google Cloud Skills',
-      logo: 'https://images.unsplash.com/photo-1612873346068-1d4b76372235?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHxHb29nbGUlMjBDbG91ZHxlbnwwfHx8fDE3Nzg3NjYwNTB8MA&ixlib=rb-4.1.0&q=85',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg',
       description: 'Cloud computing expertise',
     },
     {
       id: 4,
       name: 'Google AI Badges',
-      logo: 'https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxHb29nbGUlMjBBSXxlbnwwfHx8fDE3Nzg3NjYwNTB8MA&ixlib=rb-4.1.0&q=85',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg',
       description: 'AI and Machine Learning mastery',
     },
   ];
 
   return (
-    <section id="certifications" className="py-32 px-6 bg-[#0a0a0a] relative">
+    <section id="certifications" className="py-16 md:py-32 px-6 bg-[#0a0a0a] relative">
       <div className="container mx-auto max-w-7xl">
         {/* Section Header */}
-        <div className="mb-20">
+        <div className="mb-12 md:mb-20">
           <div className="flex items-center gap-3 mb-6">
             <Award className="w-5 h-5 text-[#c5ff00]" />
             <span className="text-xs tracking-widest text-gray-400 uppercase">Recognized Globally</span>
           </div>
 
-          <h2 className="bebas text-5xl md:text-7xl font-bold mb-6 leading-tight uppercase">
+          <h2 className="bebas text-4xl md:text-7xl font-bold mb-6 leading-tight uppercase">
             <span className="text-[#c5ff00]">Industry Recognized</span> Learning
           </h2>
           <p className="text-gray-400 text-lg max-w-3xl leading-relaxed font-light">
