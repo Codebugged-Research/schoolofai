@@ -63,13 +63,13 @@ export const Programs = () => {
                 key={program.id}
                 className="group relative bg-[#1a1a1a] border border-gray-800 hover:border-gray-700 transition-all duration-300"
               >
-                {program.featured && (
+                {/* {program.featured && (
                   <div className="absolute -top-3 left-6">
                     <span className="bg-[#c5ff00] text-black text-xs font-bold px-3 py-1 uppercase tracking-wide">
                       POPULAR
                     </span>
                   </div>
-                )}
+                )} */}
 
                 <CardHeader className="space-y-4 pb-4">
                   <div className="w-10 h-10 bg-[#c5ff00]/10 border border-[#c5ff00]/20 flex items-center justify-center">
